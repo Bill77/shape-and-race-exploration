@@ -1,39 +1,95 @@
-# BillOrg
+# Pinewood Derby - Nx Next.js App
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
-✨ Your new, shiny [Nx workspace](https://nx.dev) is almost ready ✨.
+A Pinewood Derby web application built with Next.js, Tailwind CSS, and SQLite. Features voting on multiple criteria, race results tracking, and password-protected data entry.
 
-[Learn more about this workspace setup and its capabilities](https://nx.dev/nx-api/next?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects) or run `npx nx graph` to visually explore what was created. Now, let's get you up to speed!
+## Features
+
+- **Home Page**: Introduction and information about the Pinewood Derby
+- **Voting**: Vote for cars across multiple criteria (3-5 criteria)
+- **Results**: View race results with 4-lane heat tracking
+- **Data Entry**: Password-protected admin interface for entering race results
+
+## Tech Stack
+
+- **Framework**: Next.js 16 (App Router)
+- **Styling**: Tailwind CSS
+- **Database**: SQLite (local) / Turso/Vercel Postgres (production)
+- **ORM**: Drizzle ORM
+- **Monorepo**: Nx
 
 ## Finish your CI setup
 
 [Click here to finish setting up your workspace!](https://cloud.nx.app/connect/QpdaRIuWfK)
 
 
-## Run tasks
+## Getting Started
 
-To run the dev server for your app, use:
+### Prerequisites
+
+- Node.js 20+
+- npm or yarn
+
+### Installation
+
+1. Install dependencies:
+```sh
+npm install
+```
+
+2. Set up environment variables:
+```sh
+cp .env.example .env
+# Edit .env and set DATA_ENTRY_PASSWORD
+```
+
+3. Generate database migrations:
+```sh
+npm run db:generate
+```
+
+4. Run migrations (creates database):
+```sh
+npm run db:push
+```
+
+### Development
+
+Start the development server:
 
 ```sh
 npx nx dev shape-n-race
 ```
 
-To create a production bundle:
+The app will be available at `http://localhost:3000`
+
+### Database Management
+
+- Generate migrations: `npm run db:generate`
+- Push schema changes: `npm run db:push`
+- Open Drizzle Studio: `npm run db:studio`
+
+### Production Build
 
 ```sh
 npx nx build shape-n-race
 ```
 
-To see all available targets to run for a project, run:
+### Docker
+
+Build and run with Docker Compose:
 
 ```sh
-npx nx show project shape-n-race
+docker-compose up --build
 ```
 
-These targets are either [inferred automatically](https://nx.dev/concepts/inferred-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) or defined in the `project.json` or `package.json` files.
+The app will be available at `http://localhost:3000`
 
-[More about running tasks in the docs &raquo;](https://nx.dev/features/run-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+### Environment Variables
+
+- `DATABASE_URL`: Database connection string (default: `file:./local.db`)
+- `DATA_ENTRY_PASSWORD`: Password for data entry page (required)
 
 ## Add new projects
 
