@@ -1,0 +1,10 @@
+{
+  "name": "@bill-org/shape-n-race-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@bill-org/shape-n-race"
+    ]
+  }
+}
