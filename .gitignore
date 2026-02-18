@@ -9,7 +9,7 @@
 # production
 /build
 /dist
-/.next
+.next/
 
 # misc
 .DS_Store
@@ -39,7 +39,6 @@ yarn-error.log*
 **/drizzle
 
 # NX cache
-.nx
+.nx/
 
-# Next artifacts
-.next
+
