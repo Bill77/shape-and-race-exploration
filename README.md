@@ -49,10 +49,11 @@ cp .env.example .env
 npm run db:generate
 ```
 
-4. Run migrations (creates database):
+4. Push schema (creates DB in this app’s directory). Run from repo root:
 ```sh
 npm run db:push
 ```
+The SQLite file lives at `apps/shape-n-race/local.db` so each app can have its own DB in a monorepo.
 
 ### Development
 

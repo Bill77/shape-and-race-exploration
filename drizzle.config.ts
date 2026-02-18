@@ -5,6 +5,6 @@ export default {
   out: './apps/shape-n-race/drizzle',
   dialect: 'sqlite',
   dbCredentials: {
-    url: process.env.DATABASE_URL?.replace('file:', '') || './local.db',
+    url: process.env.DATABASE_URL?.replace('file:', '') || './apps/shape-n-race/local.db',
   },
 } satisfies Config;

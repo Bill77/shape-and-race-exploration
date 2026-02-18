@@ -2135,6 +2135,146 @@
     "type": "static"
   },
   {
+    "source": "npm:@esbuild-kit/core-utils",
+    "target": "npm:esbuild@0.18.20",
+    "type": "static"
+  },
+  {
+    "source": "npm:@esbuild-kit/core-utils",
+    "target": "npm:source-map-support@0.5.21",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.18.20",
+    "target": "npm:@esbuild/android-arm@0.18.20",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.18.20",
+    "target": "npm:@esbuild/android-arm64@0.18.20",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.18.20",
+    "target": "npm:@esbuild/android-x64@0.18.20",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.18.20",
+    "target": "npm:@esbuild/darwin-arm64@0.18.20",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.18.20",
+    "target": "npm:@esbuild/darwin-x64@0.18.20",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.18.20",
+    "target": "npm:@esbuild/freebsd-arm64@0.18.20",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.18.20",
+    "target": "npm:@esbuild/freebsd-x64@0.18.20",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.18.20",
+    "target": "npm:@esbuild/linux-arm@0.18.20",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.18.20",
+    "target": "npm:@esbuild/linux-arm64@0.18.20",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.18.20",
+    "target": "npm:@esbuild/linux-ia32@0.18.20",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.18.20",
+    "target": "npm:@esbuild/linux-loong64@0.18.20",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.18.20",
+    "target": "npm:@esbuild/linux-mips64el@0.18.20",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.18.20",
+    "target": "npm:@esbuild/linux-ppc64@0.18.20",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.18.20",
+    "target": "npm:@esbuild/linux-riscv64@0.18.20",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.18.20",
+    "target": "npm:@esbuild/linux-s390x@0.18.20",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.18.20",
+    "target": "npm:@esbuild/linux-x64@0.18.20",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.18.20",
+    "target": "npm:@esbuild/netbsd-x64@0.18.20",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.18.20",
+    "target": "npm:@esbuild/openbsd-x64@0.18.20",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.18.20",
+    "target": "npm:@esbuild/sunos-x64@0.18.20",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.18.20",
+    "target": "npm:@esbuild/win32-arm64@0.18.20",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.18.20",
+    "target": "npm:@esbuild/win32-ia32@0.18.20",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.18.20",
+    "target": "npm:@esbuild/win32-x64@0.18.20",
+    "type": "static"
+  },
+  {
+    "source": "npm:source-map-support@0.5.21",
+    "target": "npm:buffer-from",
+    "type": "static"
+  },
+  {
+    "source": "npm:source-map-support@0.5.21",
+    "target": "npm:source-map",
+    "type": "static"
+  },
+  {
+    "source": "npm:@esbuild-kit/esm-loader",
+    "target": "npm:@esbuild-kit/core-utils",
+    "type": "static"
+  },
+  {
+    "source": "npm:@esbuild-kit/esm-loader",
+    "target": "npm:get-tsconfig",
+    "type": "static"
+  },
+  {
     "source": "npm:@eslint-community/eslint-utils",
     "target": "npm:eslint",
     "type": "static"
@@ -6750,6 +6890,11 @@
     "type": "static"
   },
   {
+    "source": "npm:@types/better-sqlite3",
+    "target": "npm:@types/node",
+    "type": "static"
+  },
+  {
     "source": "npm:@types/body-parser",
     "target": "npm:@types/connect",
     "type": "static"
@@ -8420,6 +8565,16 @@
     "type": "static"
   },
   {
+    "source": "npm:better-sqlite3",
+    "target": "npm:bindings",
+    "type": "static"
+  },
+  {
+    "source": "npm:better-sqlite3",
+    "target": "npm:prebuild-install",
+    "type": "static"
+  },
+  {
     "source": "npm:bin-version",
     "target": "npm:execa",
     "type": "static"
@@ -8442,6 +8597,11 @@
   {
     "source": "npm:bin-version-check",
     "target": "npm:semver-truncate",
+    "type": "static"
+  },
+  {
+    "source": "npm:bindings",
+    "target": "npm:file-uri-to-path",
     "type": "static"
   },
   {
@@ -9455,6 +9615,166 @@
     "type": "static"
   },
   {
+    "source": "npm:drizzle-kit",
+    "target": "npm:@drizzle-team/brocli",
+    "type": "static"
+  },
+  {
+    "source": "npm:drizzle-kit",
+    "target": "npm:@esbuild-kit/esm-loader",
+    "type": "static"
+  },
+  {
+    "source": "npm:drizzle-kit",
+    "target": "npm:esbuild@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:drizzle-kit",
+    "target": "npm:esbuild-register",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/aix-ppc64@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/android-arm@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/android-arm64@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/android-x64@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/darwin-arm64@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/darwin-x64@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/freebsd-arm64@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/freebsd-x64@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/linux-arm@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/linux-arm64@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/linux-ia32@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/linux-loong64@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/linux-mips64el@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/linux-ppc64@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/linux-riscv64@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/linux-s390x@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/linux-x64@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/netbsd-arm64@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/netbsd-x64@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/openbsd-arm64@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/openbsd-x64@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/openharmony-arm64@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/sunos-x64@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/win32-arm64@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/win32-ia32@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild@0.25.12",
+    "target": "npm:@esbuild/win32-x64@0.25.12",
+    "type": "static"
+  },
+  {
+    "source": "npm:drizzle-orm",
+    "target": "npm:@types/better-sqlite3",
+    "type": "static"
+  },
+  {
+    "source": "npm:drizzle-orm",
+    "target": "npm:better-sqlite3",
+    "type": "static"
+  },
+  {
     "source": "npm:dunder-proto",
     "target": "npm:call-bind-apply-helpers",
     "type": "static"
@@ -10032,6 +10352,16 @@
   {
     "source": "npm:esbuild",
     "target": "npm:@esbuild/win32-x64",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild-register",
+    "target": "npm:esbuild",
+    "type": "static"
+  },
+  {
+    "source": "npm:esbuild-register",
+    "target": "npm:debug",
     "type": "static"
   },
   {
@@ -13066,6 +13396,11 @@
   },
   {
     "source": "npm:jest-config",
+    "target": "npm:esbuild-register",
+    "type": "static"
+  },
+  {
+    "source": "npm:jest-config",
     "target": "npm:ts-node",
     "type": "static"
   },
@@ -14855,6 +15190,11 @@
     "type": "static"
   },
   {
+    "source": "npm:node-abi",
+    "target": "npm:semver",
+    "type": "static"
+  },
+  {
     "source": "npm:node-exports-info",
     "target": "npm:array.prototype.flatmap",
     "type": "static"
@@ -16210,6 +16550,66 @@
     "type": "static"
   },
   {
+    "source": "npm:prebuild-install",
+    "target": "npm:detect-libc",
+    "type": "static"
+  },
+  {
+    "source": "npm:prebuild-install",
+    "target": "npm:expand-template",
+    "type": "static"
+  },
+  {
+    "source": "npm:prebuild-install",
+    "target": "npm:github-from-package",
+    "type": "static"
+  },
+  {
+    "source": "npm:prebuild-install",
+    "target": "npm:minimist",
+    "type": "static"
+  },
+  {
+    "source": "npm:prebuild-install",
+    "target": "npm:mkdirp-classic",
+    "type": "static"
+  },
+  {
+    "source": "npm:prebuild-install",
+    "target": "npm:napi-build-utils",
+    "type": "static"
+  },
+  {
+    "source": "npm:prebuild-install",
+    "target": "npm:node-abi",
+    "type": "static"
+  },
+  {
+    "source": "npm:prebuild-install",
+    "target": "npm:pump",
+    "type": "static"
+  },
+  {
+    "source": "npm:prebuild-install",
+    "target": "npm:rc",
+    "type": "static"
+  },
+  {
+    "source": "npm:prebuild-install",
+    "target": "npm:simple-get",
+    "type": "static"
+  },
+  {
+    "source": "npm:prebuild-install",
+    "target": "npm:tar-fs",
+    "type": "static"
+  },
+  {
+    "source": "npm:prebuild-install",
+    "target": "npm:tunnel-agent",
+    "type": "static"
+  },
+  {
     "source": "npm:pretty-format",
     "target": "npm:@jest/schemas",
     "type": "static"
@@ -16250,6 +16650,16 @@
     "type": "static"
   },
   {
+    "source": "npm:pump",
+    "target": "npm:end-of-stream",
+    "type": "static"
+  },
+  {
+    "source": "npm:pump",
+    "target": "npm:once",
+    "type": "static"
+  },
+  {
     "source": "npm:pvtsutils",
     "target": "npm:tslib",
     "type": "static"
@@ -16287,6 +16697,26 @@
   {
     "source": "npm:iconv-lite@0.4.24",
     "target": "npm:safer-buffer",
+    "type": "static"
+  },
+  {
+    "source": "npm:rc",
+    "target": "npm:deep-extend",
+    "type": "static"
+  },
+  {
+    "source": "npm:rc",
+    "target": "npm:ini",
+    "type": "static"
+  },
+  {
+    "source": "npm:rc",
+    "target": "npm:minimist",
+    "type": "static"
+  },
+  {
+    "source": "npm:rc",
+    "target": "npm:strip-json-comments@2.0.1",
     "type": "static"
   },
   {
@@ -17465,6 +17895,21 @@
     "type": "static"
   },
   {
+    "source": "npm:simple-get",
+    "target": "npm:decompress-response",
+    "type": "static"
+  },
+  {
+    "source": "npm:simple-get",
+    "target": "npm:once",
+    "type": "static"
+  },
+  {
+    "source": "npm:simple-get",
+    "target": "npm:simple-concat",
+    "type": "static"
+  },
+  {
     "source": "npm:snake-case",
     "target": "npm:dot-case",
     "type": "static"
@@ -18170,6 +18615,26 @@
     "type": "static"
   },
   {
+    "source": "npm:tar-fs",
+    "target": "npm:chownr",
+    "type": "static"
+  },
+  {
+    "source": "npm:tar-fs",
+    "target": "npm:mkdirp-classic",
+    "type": "static"
+  },
+  {
+    "source": "npm:tar-fs",
+    "target": "npm:pump",
+    "type": "static"
+  },
+  {
+    "source": "npm:tar-fs",
+    "target": "npm:tar-stream",
+    "type": "static"
+  },
+  {
     "source": "npm:tar-stream",
     "target": "npm:bl",
     "type": "static"
@@ -18627,6 +19092,11 @@
   {
     "source": "npm:tsyringe",
     "target": "npm:tslib@1.14.1",
+    "type": "static"
+  },
+  {
+    "source": "npm:tunnel-agent",
+    "target": "npm:safe-buffer",
     "type": "static"
   },
   {

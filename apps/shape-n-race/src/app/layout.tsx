@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen bg-gray-50">
-        <nav className="bg-blue-800 text-white shadow-lg">
+        <nav className="bg-brand-dark-800 text-white shadow-lg">
           <div className="container mx-auto px-4 py-4">
             <div className="flex items-center justify-between">
               <Link href="/" className="text-2xl font-bold">
@@ -23,19 +23,19 @@ export default function RootLayout({
               <div className="flex gap-6">
                 <Link
                   href="/"
-                  className="hover:text-blue-200 transition-colors"
+                  className="hover:text-teal-700 transition-colors"
                 >
                   Home
                 </Link>
                 <Link
                   href="/vote"
-                  className="hover:text-blue-200 transition-colors"
+                  className="hover:text-teal-700 transition-colors"
                 >
                   Vote
                 </Link>
                 <Link
                   href="/results"
-                  className="hover:text-blue-200 transition-colors"
+                  className="hover:text-teal-700 transition-colors"
                 >
                   Results
                 </Link>

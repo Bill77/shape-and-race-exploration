@@ -17,7 +17,16 @@ module.exports = {
     //     ...createGlobPatternsForDependencies(__dirname)
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        brand: {
+          dark: '#1a2a2d',    // The deep teal/grey found in their headers
+          teal: '#40808a',    // The primary accent color
+          light: '#f4f7f7',   // Soft background grey
+          accent: '#7db9c2',  // Lighter teal for hover states
+        },
+      },
+    },
   },
   plugins: [],
 };

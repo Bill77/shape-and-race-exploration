@@ -48,6 +48,100 @@
     }
   ],
   "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "11309362834336059819"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "18418322499144978007"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "6927958956019882428"
+      },
+      {
+        "file": "error.log",
+        "hash": "3537019111692895134"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "4152659772391764"
+      },
+      {
+        "file": "AGENTS.md",
+        "hash": "18234343250335250711"
+      },
+      {
+        "file": "Dockerfile",
+        "hash": "13904288548325290882"
+      },
+      {
+        "file": "scripts/init-db.ts",
+        "hash": "16559215304241482843"
+      },
+      {
+        "file": "nx.json",
+        "hash": "15074781597937267033"
+      },
+      {
+        "file": "drizzle.config.ts",
+        "hash": "10709037565702097430"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "14757837089069796786"
+      },
+      {
+        "file": "package.json",
+        "hash": "17289276375333319246"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "README.md",
+        "hash": "15255494960048301011"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "6870352021923392442"
+      },
+      {
+        "file": ".github/workflows/ci.yml",
+        "hash": "5999999000893537782"
+      },
+      {
+        "file": "PLAN.md",
+        "hash": "15826279870660807151"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "10780832325009401519"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "15988766557004667717"
+      },
+      {
+        "file": ".env.example",
+        "hash": "4678016005084174134"
+      }
+    ],
     "projectFileMap": {
       "@bill-org/shape-n-race": [
         {
@@ -75,11 +169,11 @@
         },
         {
           "file": "apps/shape-n-race/next-env.d.ts",
-          "hash": "15584119625765151711"
+          "hash": "373744204795424001"
         },
         {
           "file": "apps/shape-n-race/next.config.js",
-          "hash": "5443563404894739361",
+          "hash": "7630571034085711423",
           "deps": [
             "npm:@nx/next"
           ]
@@ -114,8 +208,54 @@
           ]
         },
         {
+          "file": "apps/shape-n-race/src/app/api/admin/verify/route.ts",
+          "hash": "985939422705007144",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/shape-n-race/src/app/api/cars/route.ts",
+          "hash": "1041909685206204358",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/shape-n-race/src/app/api/heats/[id]/results/route.ts",
+          "hash": "13976715492148583995",
+          "deps": [
+            "npm:next",
+            "npm:drizzle-orm"
+          ]
+        },
+        {
+          "file": "apps/shape-n-race/src/app/api/heats/route.ts",
+          "hash": "13835066695452886839",
+          "deps": [
+            "npm:next",
+            "npm:drizzle-orm"
+          ]
+        },
+        {
           "file": "apps/shape-n-race/src/app/api/hello/route.ts",
           "hash": "495073956729887886"
+        },
+        {
+          "file": "apps/shape-n-race/src/app/api/vote-criteria/route.ts",
+          "hash": "10100203110594263498",
+          "deps": [
+            "npm:next",
+            "npm:drizzle-orm"
+          ]
+        },
+        {
+          "file": "apps/shape-n-race/src/app/api/votes/route.ts",
+          "hash": "17164734432278657607",
+          "deps": [
+            "npm:next",
+            "npm:drizzle-orm"
+          ]
         },
         {
           "file": "apps/shape-n-race/src/app/global.css",
@@ -123,15 +263,59 @@
         },
         {
           "file": "apps/shape-n-race/src/app/layout.tsx",
-          "hash": "17768227939851893254"
+          "hash": "5097747244386741961",
+          "deps": [
+            "npm:next"
+          ]
         },
         {
           "file": "apps/shape-n-race/src/app/page.tsx",
-          "hash": "893866736953968952"
+          "hash": "9076699879534493141",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/shape-n-race/src/app/results/enter/page.tsx",
+          "hash": "16974770255122478143",
+          "deps": [
+            "npm:react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/shape-n-race/src/app/results/page.tsx",
+          "hash": "5088584626809135353",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/shape-n-race/src/app/vote/page.tsx",
+          "hash": "7935998010109812614",
+          "deps": [
+            "npm:react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/shape-n-race/src/lib/db/index.ts",
+          "hash": "13220896578357945174",
+          "deps": [
+            "npm:better-sqlite3",
+            "npm:drizzle-orm"
+          ]
+        },
+        {
+          "file": "apps/shape-n-race/src/lib/db/schema.ts",
+          "hash": "1929222072746279988",
+          "deps": [
+            "npm:drizzle-orm"
+          ]
         },
         {
           "file": "apps/shape-n-race/tailwind.config.js",
-          "hash": "5937918000814531646"
+          "hash": "4196007666329767557"
         },
         {
           "file": "apps/shape-n-race/tsconfig.json",
@@ -175,65 +359,7 @@
           "hash": "15001458170383955177"
         }
       ]
-    },
-    "nonProjectFiles": [
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "11781386581622614206"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "14688272390704683536"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "11309362834336059819"
-      },
-      {
-        "file": "README.md",
-        "hash": "6959410398851072145"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "6927958956019882428"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "6870352021923392442"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "nx.json",
-        "hash": "4552600974273294218"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "8107942599618565144"
-      },
-      {
-        "file": "package.json",
-        "hash": "4224596449576472021"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "10780832325009401519"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "14757837089069796786"
-      }
-    ]
+    }
   },
-  "externalNodesHash": "17521735029121042426"
+  "externalNodesHash": "1855281025667467189"
 }

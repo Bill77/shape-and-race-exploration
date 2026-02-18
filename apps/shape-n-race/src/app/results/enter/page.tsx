@@ -171,7 +171,7 @@ export default function DataEntryPage() {
   if (!authenticated) {
     return (
       <div className="container mx-auto px-4 py-16">
-        <div className="max-w-md mx-auto bg-white rounded-lg shadow-lg p-8">
+        <div className="max-w-md mx-auto bg-brand-light rounded-lg shadow-lg p-8">
           <h1 className="text-2xl font-bold mb-6 text-center">Data Entry</h1>
           <form onSubmit={handlePasswordSubmit}>
             <div className="mb-4">
@@ -193,7 +193,7 @@ export default function DataEntryPage() {
             <button
               type="submit"
               disabled={verifying}
-              className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 disabled:bg-gray-400 disabled:cursor-not-allowed"
+              className="w-full bg-brand-dark-600 text-white py-2 px-4 rounded-lg hover:bg-brand-dark-700 disabled:bg-gray-400 disabled:cursor-not-allowed"
             >
               {verifying ? 'Verifying...' : 'Submit'}
             </button>
@@ -215,7 +215,7 @@ export default function DataEntryPage() {
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-8">Enter Heat Results</h1>
 
-      <form onSubmit={handleSubmit} className="bg-white rounded-lg shadow-lg p-6">
+      <form onSubmit={handleSubmit} className="bg-brand-light rounded-lg shadow-lg p-6">
         <div className="mb-6">
           <label htmlFor="heatName" className="block text-sm font-medium mb-2">
             Heat Name *
@@ -289,7 +289,7 @@ export default function DataEntryPage() {
         <button
           type="submit"
           disabled={submitting}
-          className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 disabled:bg-gray-400 disabled:cursor-not-allowed"
+          className="w-full bg-brand-dark-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-brand-dark-700 disabled:bg-gray-400 disabled:cursor-not-allowed"
         >
           {submitting ? 'Saving...' : 'Save Results'}
         </button>

@@ -16,33 +16,34 @@ export default function Home() {
           <source src="/derby-video.mp4" type="video/mp4" />
         </video>
         {/* Fallback gradient if video doesn't load */}
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-blue-900" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#1a2a2d] to-[#131e20]" />
       </div>
 
       {/* Content overlay */}
       <div className="relative z-10 container mx-auto px-4 py-16">
         <div className="max-w-4xl mx-auto text-center text-white">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 drop-shadow-lg">
-            Pinewood Derby
+            Shape and Race
           </h1>
           <p className="text-xl md:text-2xl mb-8 drop-shadow-md">
-            Welcome to our annual Pinewood Derby race!
+            Welcome to Shape and Race 2026!
           </p>
           <p className="text-lg mb-12 max-w-2xl mx-auto drop-shadow">
-            Watch as scouts race their handcrafted cars down the track. Vote for
-            your favorites and see the race results in real-time.
+            Watch as your children race their handcrafted cars down the track. 
+            <br/>            
+            Vote for your favorites and see the race results in real-time.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/vote"
-              className="bg-white text-blue-800 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-50 transition-colors shadow-lg"
+              className="bg-brand-light text-teal-800 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-teal-100 transition-colors shadow-lg"
             >
               Cast Your Vote
             </Link>
             <Link
               href="/results"
-              className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-colors shadow-lg"
+              className="bg-teal-700 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-teal-600 transition-colors shadow-lg"
             >
               View Results
             </Link>
@@ -50,7 +51,7 @@ export default function Home() {
         </div>
 
         {/* About section */}
-        <div className="mt-24 max-w-4xl mx-auto bg-white rounded-lg shadow-xl p-8 text-gray-800">
+        <div className="mt-24 max-w-4xl mx-auto bg-brand-light rounded-lg shadow-xl p-8 text-gray-800">
           <h2 className="text-3xl font-bold mb-6 text-center">About the Derby</h2>
           <div className="prose prose-lg mx-auto">
             <p className="mb-4">

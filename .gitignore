@@ -37,3 +37,9 @@ yarn-error.log*
 
 # Drizzle migrations
 **/drizzle
+
+# NX cache
+.nx
+
+# Next artifacts
+.next

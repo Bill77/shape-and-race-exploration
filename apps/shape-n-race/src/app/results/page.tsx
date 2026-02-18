@@ -99,7 +99,7 @@ export default function ResultsPage() {
             const sortedResults = [...results].sort((a, b) => a.place - b.place);
 
             return (
-              <div key={heat.id} className="bg-white rounded-lg shadow-lg p-6">
+              <div key={heat.id} className="bg-brand-light rounded-lg shadow-lg p-6">
                 <h2 className="text-2xl font-semibold mb-4">
                   {heat.name}
                   {heat.label && <span className="text-gray-600 ml-2">({heat.label})</span>}

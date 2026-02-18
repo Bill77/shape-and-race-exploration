@@ -144,7 +144,7 @@ export default function VotePage() {
                 onClick={() => handleVote(criterion.id, car.id)}
                 className={`cursor-pointer border-2 rounded-lg p-4 transition-all ${
                   selectedVotes[criterion.id] === car.id
-                    ? 'border-blue-600 bg-blue-50 shadow-lg'
+                    ? 'border-blue-600 bg-brand-dark-50 shadow-lg'
                     : 'border-gray-200 hover:border-blue-300 hover:shadow-md'
                 }`}
               >
@@ -180,7 +180,7 @@ export default function VotePage() {
           <button
             onClick={handleSubmit}
             disabled={submitting || Object.keys(selectedVotes).length === 0}
-            className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-colors disabled:bg-gray-400 disabled:cursor-not-allowed"
+            className="bg-brand-dark-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-brand-dark-700 transition-colors disabled:bg-gray-400 disabled:cursor-not-allowed"
           >
             {submitting ? 'Submitting...' : 'Submit Votes'}
           </button>

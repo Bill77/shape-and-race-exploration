@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { db, schema } from '@/lib/db';
-import { eq } from 'drizzle-orm';
 
 export async function GET() {
   try {
@@ -53,18 +52,18 @@ export async function POST(request: NextRequest) {
       })
       .returning();
 
-    let imageUrls: string[];
+    let parsedImageUrls: string[];
     try {
-      imageUrls = typeof newCar[0].imageUrls === 'string'
+      parsedImageUrls = typeof newCar[0].imageUrls === 'string'
         ? JSON.parse(newCar[0].imageUrls)
         : (newCar[0].imageUrls as any);
     } catch {
-      imageUrls = [];
+      parsedImageUrls = [];
     }
-    
+
     const car = {
       ...newCar[0],
-      imageUrls,
+      imageUrls: parsedImageUrls,
     };
 
     return NextResponse.json(car, { status: 201 });
